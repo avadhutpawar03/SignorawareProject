@@ -29,7 +29,7 @@ namespace Signoraware.Base
             [TearDown]
             public void AfterMethod()
             {
-               // driver.Quit();
+                driver.Quit();
             }
         }
     }

@@ -20,7 +20,8 @@ namespace Signoraware
         }
 
         [Test]
-        public void ValidateSearchTextTest() {
+        public void ValidateSearchTextTest()
+        {
             bool SearchtextBox = driver.FindElement(By.XPath("//div[@class='search-area']")).Displayed;
             Assert.IsTrue(SearchtextBox);
         }
@@ -52,7 +53,7 @@ namespace Signoraware
 
 
 
-    
-    
+
+
     }
-    }
+}
